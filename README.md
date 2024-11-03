@@ -7,7 +7,7 @@ will always have visible source code, be available to self-host, and allow you t
 functions, logic and apps. n8n's node-based approach makes it highly versatile, enabling you to connect
 anything to everything.
 
-![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot.png)
+![n8n.io - Screenshot](https://raw.githubusercontent.com/kob490/n8n/master/assets/n8n-screenshot.png)
 
 ## Demo
 
@@ -26,7 +26,7 @@ The official n8n documentation can be found on our [documentation website](https
 Additional information and example workflows on the [n8n.io website](https://n8n.io)
 
 The release notes can be found [here](https://docs.n8n.io/release-notes/) and the list of breaking
-changes [here](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md).
+changes [here](https://github.com/kob490/n8n/blob/master/packages/cli/BREAKING-CHANGES.md).
 
 ## Usage
 
@@ -89,14 +89,14 @@ Oberhauser, Founder and CEO, n8n.io**
 ## Development setup
 
 Have you found a bug :bug: ? Or maybe you have a nice feature :sparkles: to contribute ? The
-[CONTRIBUTING guide](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) will help you get your
+[CONTRIBUTING guide](https://github.com/kob490/n8n/blob/master/CONTRIBUTING.md) will help you get your
 development environment ready in minutes.
 
 ## License
 
 n8n is [fair-code](https://faircode.io) distributed under the
-[**Sustainable Use License**](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) and the
-[**n8n Enterprise License**](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md).
+[**Sustainable Use License**](https://github.com/kob490/n8n/blob/master/LICENSE.md) and the
+[**n8n Enterprise License**](https://github.com/kob490/n8n/blob/master/LICENSE_EE.md).
 
 Proprietary licenses are available for enterprise customers. [Get in touch](mailto:license@n8n.io)
 

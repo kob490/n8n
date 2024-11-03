@@ -62,7 +62,7 @@ dependencies are installed and the packages get linked correctly. Here's a short
 
 ### Dev Container
 
-If you already have VS Code and Docker installed, you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/n8n-io/n8n) to get started. Clicking these links will cause VS Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
+If you already have VS Code and Docker installed, you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/kob490/n8n) to get started. Clicking these links will cause VS Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
 
 ### Requirements
 
@@ -219,7 +219,7 @@ E2E tests can be started via one of the following commands:
 
 ## Releasing
 
-To start a release, trigger [this workflow](https://github.com/n8n-io/n8n/actions/workflows/release-create-pr.yml) with the SemVer release type, and select a branch to cut this release from. This workflow will then:
+To start a release, trigger [this workflow](https://github.com/kob490/n8n/actions/workflows/release-create-pr.yml) with the SemVer release type, and select a branch to cut this release from. This workflow will then:
 
 1. Bump versions of packages that have changed or have dependencies that have changed
 2. Update the Changelog
@@ -227,7 +227,7 @@ To start a release, trigger [this workflow](https://github.com/n8n-io/n8n/action
 4. Create a new pull-request to track any further changes that need to be included in this release
 
 Once ready to release, simply merge the pull-request.
-This triggers [another workflow](https://github.com/n8n-io/n8n/actions/workflows/release-publish.yml), that will:
+This triggers [another workflow](https://github.com/kob490/n8n/actions/workflows/release-publish.yml), that will:
 
 1. Build and publish the packages that have a new version in this release
 2. Create a new tag, and GitHub release from squashed release commit
