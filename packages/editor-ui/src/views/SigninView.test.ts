@@ -63,7 +63,7 @@ describe('SigninView', () => {
 		const { getByRole, queryByTestId, container } = renderComponent();
 		const emailInput = container.querySelector('input[type="email"]');
 		const passwordInput = container.querySelector('input[type="password"]');
-		const submitButton = getByRole('button', { name: 'Sign in' });
+		const submitButton = getByRole('button', { name: 'Sign in 222' });
 
 		if (!emailInput || !passwordInput) {
 			throw new Error('Inputs not found');
