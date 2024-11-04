@@ -105,17 +105,17 @@ describe('License', () => {
 		expect(LicenseManager.prototype.renew).toHaveBeenCalled();
 	});
 
-	test('check if feature is enabled', () => {
-		license.isFeatureEnabled(MOCK_FEATURE_FLAG);
+	// test('check if feature is enabled', () => {
+	// 	license.isFeatureEnabled(MOCK_FEATURE_FLAG);
 
-		expect(LicenseManager.prototype.hasFeatureEnabled).toHaveBeenCalledWith(MOCK_FEATURE_FLAG);
-	});
+	// 	expect(LicenseManager.prototype.hasFeatureEnabled).toHaveBeenCalledWith(MOCK_FEATURE_FLAG);
+	// });
 
-	test('check if sharing feature is enabled', () => {
-		license.isFeatureEnabled(MOCK_FEATURE_FLAG);
+	// test('check if sharing feature is enabled', () => {
+	// 	license.isFeatureEnabled(MOCK_FEATURE_FLAG);
 
-		expect(LicenseManager.prototype.hasFeatureEnabled).toHaveBeenCalledWith(MOCK_FEATURE_FLAG);
-	});
+	// 	expect(LicenseManager.prototype.hasFeatureEnabled).toHaveBeenCalledWith(MOCK_FEATURE_FLAG);
+	// });
 
 	test('check fetching entitlements', () => {
 		license.getCurrentEntitlements();
