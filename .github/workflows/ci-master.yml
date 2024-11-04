@@ -48,7 +48,7 @@ jobs:
       # Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t yoventures/yo-n8n:latest .
+          docker build -t yoventures/yo-n8n:latest -f docker/images/n8n-custom/Dockerfile .
 
       # Push the image to Docker Hub
       - name: Push Docker image to Docker Hub
