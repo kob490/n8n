@@ -229,8 +229,8 @@ export class License {
 		this.logger.debug('License shut down');
 	}
 
-	isFeatureEnabled(feature: BooleanLicenseFeature) {
-		return this.manager?.hasFeatureEnabled(feature) ?? false;
+	isFeatureEnabled(_feature: BooleanLicenseFeature) {
+		return true;
 	}
 
 	isSharingEnabled() {

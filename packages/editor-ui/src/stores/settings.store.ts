@@ -179,10 +179,6 @@ export const useSettingsStore = defineStore(STORES.SETTINGS, () => {
 
 		mfa.value.enabled = settings.value.mfa?.enabled;
 
-		if (settings.value.enterprise?.showNonProdBanner) {
-			useUIStore().pushBannerToStack('NON_PRODUCTION_LICENSE');
-		}
-
 		if (settings.value.versionCli) {
 			useRootStore().setVersionCli(settings.value.versionCli);
 		}
