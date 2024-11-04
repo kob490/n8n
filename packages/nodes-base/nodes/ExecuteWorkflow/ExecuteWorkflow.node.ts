@@ -199,6 +199,14 @@ export class ExecuteWorkflow implements INodeType {
 						description:
 							'Whether the main workflow should wait for the sub-workflow to complete its execution before proceeding',
 					},
+					{
+						displayName: 'Wait For Sub-Workflow Completion2',
+						name: 'waitForSubWorkflow2',
+						type: 'boolean',
+						default: true,
+						description:
+							'Whether the main workflow should wait for the sub-workflow to complete its execution before proceeding',
+					},
 				],
 			},
 		],
