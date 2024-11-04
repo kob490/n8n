@@ -54,6 +54,7 @@ const formConfig = computed(() => {
 			inputs: EMAIL_INPUTS,
 		};
 	}
+
 	return {
 		...DEFAULT_FORM_CONFIG,
 		inputs: NO_SMTP_INPUTS,

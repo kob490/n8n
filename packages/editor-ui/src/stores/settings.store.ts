@@ -266,7 +266,6 @@ export const useSettingsStore = defineStore(STORES.SETTINGS, () => {
 		const { showToast } = useToast();
 		try {
 			await getSettings();
-
 			ExpressionEvaluatorProxy.setEvaluator(settings.value.expressions.evaluator);
 
 			initialized.value = true;

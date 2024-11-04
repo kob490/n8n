@@ -77,7 +77,7 @@ module.exports = {
 	],
 
 	rules: {
-		'no-console': 'warn',
+		'no-console': 'off',
 		'no-debugger': isCI ? 'error' : 'off',
 		semi: [2, 'always'],
 		'comma-dangle': ['error', 'always-multiline'],
